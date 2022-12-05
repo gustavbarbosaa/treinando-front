@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.menu li a {
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(10, 17, 124);
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+.menu li a:hover {
+    color:rgb(9, 198, 39);
+}
